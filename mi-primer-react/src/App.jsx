@@ -1,28 +1,37 @@
-import Saludo from './saludo'; //Importamos el saludo del otro archivo
-import Mensaje from "./mensaje";
-import Contador from "./Contador";
-import MensajeClick from "./click"
-import ColorClick from './BotonColor';
-function App(){
+import { Routes, Route, Link } from "react-router-dom";
+import Usuarios from "./Usuarios";
+import Formulario from "./formulario";
+import Batallas from "./Batallas";
+import BotonColor from "./BotonColor"
+function App() {
   return (
     <div>
-      <h1>Bienvenido!</h1>
-      <Saludo nombre="Rodrigo" /> 
-      <Saludo nombre="Aqui estamos utilizando un componente que recibe un mensaje prop" /> 
-      <Saludo nombre= "Mario" /> 
-      <Mensaje mensaje="Aprender react es divertido" />
-      <h5>Esto es un contador:
-        <Contador/>
-      </h5>
-      <MensajeClick/>
-      <ColorClick/>
+      <h1>Mi App con Rutas</h1>
 
+      {/* Navegación */}
+      <nav>
+        <Link to="/">Inicio</Link> |{" "}
+        <Link to="/usuarios">Usuarios</Link> |{" "}
+        <Link to="/formulario">Formulario</Link> |{" "}
+        <Link to="/batallas">Batallas</Link> |{' '}
+        <Link to="/botonColor">Boton Color</Link>
+
+
+      </nav>
+
+      {/* Definición de rutas */}
+      <Routes>
+        <Route path="/" element={<h2>Página de Inicio</h2>} />
+        <Route path="/usuarios" element={<Usuarios />} />
+        <Route path="/formulario" element={<Formulario />} />
+        <Route path="/batallas" element={<Batallas/>} />
+        <Route path="/botonColor" element={<BotonColor/>} />
+      </Routes>
     </div>
-  )
+  );
 }
 
-
-
 export default App;
+
 
 
