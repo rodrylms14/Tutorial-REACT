@@ -1,0 +1,50 @@
+/* styles/FormularioAvanzado.css */
+
+.form-container {
+  background-color: #f4f4f4;
+  padding: 30px;
+  max-width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.resultado {
+  margin-top: 25px;
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 6px;
+}
