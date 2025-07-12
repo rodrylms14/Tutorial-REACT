@@ -1,0 +1,28 @@
+.Container-Contador {
+    background-color: aqua;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 25%;
+    
+}
+.contador {
+    background-color: rgb(229, 238, 235);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+
+}
+.boton-aumentar {
+    background-color: black;
+    color: rgb(0, 255, 26);
+    border-radius: 5px;
+
+}
+.boton-disminuir {
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;    
+}
