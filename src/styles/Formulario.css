@@ -1,0 +1,37 @@
+.container-form {
+    background-color: #cfcccc;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Input-nombre {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+.Input-apellido {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+.Input-email {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 5px;
+}
+.botton {
+    background-color: rgb(191, 233, 172);
+    padding: 5px;
+    margin: 10px 0;
+    border-left: 5px solid #26ff00;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+.botton:hover {
+    transform: scale(1.02);
+    background-color: #fd0b0b;
+}

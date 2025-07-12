@@ -1,0 +1,37 @@
+/* styles/Batallas.css */
+
+.container-batallas {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 30px;
+  max-width: 800px;
+  margin: 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tittle-1 {
+  text-align: center;
+  color: #4fc3f7;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.tittle-2,
+.tittle-3 {
+  color: #90caf9;
+  margin-top: 30px;
+  border-left: 5px solid #4fc3f7;
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+.lista-1,
+.lista-2 {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+
