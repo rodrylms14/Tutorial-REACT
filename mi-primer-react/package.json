@@ -24,22 +24,5 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.2.0",
     "vite": "^7.0.0"
-  },
-  "name": "tutorialreact",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rodrylms14/Tutorial-REACT.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rodrylms14/Tutorial-REACT/issues"
-  },
-  "homepage": "https://github.com/rodrylms14/Tutorial-REACT#readme",
-  "description": ""
+  }
 }
